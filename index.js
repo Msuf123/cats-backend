@@ -13,8 +13,8 @@ const options={}
 app.use(bodyParser.json())
 const sessionStore=new mysqlStore({
     connectionLimit:9,
-    password:'admin@123',
-    user:'admin',
+    password:'',
+    user:'',
     database:'cats',
     host:'localhost',
     createDatabaseTable:true
